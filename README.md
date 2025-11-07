@@ -2,8 +2,7 @@
 
 # 🚗 Gestión de Vehículos y Motos — App Web React
 
-**Proyecto académico** desarrollado como resultado del proceso de enseñanza–aprendizaje en **React.js** y **JavaScript moderno (ES6+)**.  
-Esta aplicación web permite **gestionar vehículos y motos** mediante operaciones **CRUD (Crear, Leer, Actualizar y Eliminar)**, integrando componentes modulares, consumo de APIs REST, y uso de librerías populares de UI.
+En este proyecto implementamos principalmente react.js y javascript para su funcionamiento, este programa nos permitira acceder a la pagina web en la cual se realizan los registros de los vehiculos, en ella veremos todos sus detalles y una imagen descriptiva, ademas de esto la pagina implementa mensajes de alerta en caso de exito o no exito, ademas de esto implementamos bootstrap y SweetAlert2
 
 ---
 
@@ -78,7 +77,7 @@ Cada pestaña permite:
 
 ### 1️⃣ Clonar el repositorio
 
-git clone 
+git clone https://github.com/PEREZ918/PROYECTO-PAGINA-DE-REGISTROS-VEHICULOS--FRONT.git
 ### 2️⃣ Instalar dependencias
 npm install
 
@@ -89,7 +88,7 @@ npm run dev
 La app se comunica con una API REST disponible en:
 http://localhost:8080/api/
 
-## Asegúrate de tener disponibles los siguientes endpoints:
+## Debes De tener disponibles los siguientes endpoints:
 - GET /api/vehiculos
 - POST /api/vehiculos
 - PUT /api/vehiculos/{id}
@@ -99,6 +98,16 @@ http://localhost:8080/api/
 - POST /api/motos
 - PUT /api/motos/{id}
 - DELETE /api/motos/{id}
+
+
+## PRUEBA DE FUNCIONAMIENTO DE EL FRONT
+
+
+<img width="1351" height="761" alt="Captura de pantalla 2025-11-06 191121" src="https://github.com/user-attachments/assets/a728349d-1702-423a-ac99-d67bd81b3283" />
+
+
+
+
 
 Cada registro puede incluir una imagen asociada al vehículo o moto.
 
@@ -132,4 +141,72 @@ Para un desarrollo óptimo en este proyecto, se recomiendan las siguientes exten
 | **React Extension Pack** | Paquete que incluye varias extensiones útiles para desarrollo en React. |
 | **Vite** | Extensión oficial de Vite para soporte en VSCode (si está disponible). |
 
-Estas extensiones facilitan el desarrollo, mejoran la productividad y ayudan a mantener la calidad del código.
+### FUNCIONAMIENTO APP WEB
+
+## INTERFAZ
+
+
+<img width="1340" height="628" alt="Captura de pantalla 2025-11-06 141959" src="https://github.com/user-attachments/assets/b40c4a95-d159-4779-99a1-a815d71ec886" />
+
+
+
+
+## MENU DE CREACION, EDICION Y ELIMINACION
+
+
+<img width="1340" height="619" alt="Captura de pantalla 2025-11-06 142050" src="https://github.com/user-attachments/assets/14417a1c-f6af-45d4-aa26-0ce73c050f0d" />
+
+
+
+
+##  DEMOSTRACION DE VISTA AL YA ESTAR LOS VEHICULOS AGREGADOS
+
+
+<img width="1347" height="675" alt="Captura de pantalla 2025-11-05 134716" src="https://github.com/user-attachments/assets/8edc030a-d502-4afc-957c-d960c0f1d8b5" />
+
+
+
+
+## DEMOSTRACION DE VISTA AL YA ESTAR LAS MOTOS AGREGADAS
+
+
+<img width="1354" height="672" alt="Captura de pantalla 2025-11-05 141900" src="https://github.com/user-attachments/assets/90992720-9934-4ed9-b1fd-142826a4680a" />
+
+
+
+
+## MENSAJE DE ALERTA (ERROR AL GUARDAR)
+
+
+<img width="1358" height="667" alt="Captura de pantalla 2025-11-06 190748" src="https://github.com/user-attachments/assets/055f6fb9-35ff-47f1-8df0-3faf25e96ec3" />
+
+
+
+
+
+## MENSAJE DE ALERTA (CONFIRMACION DE CAMBIOS)
+
+
+<img width="1358" height="673" alt="Captura de pantalla 2025-11-06 191504" src="https://github.com/user-attachments/assets/75e18faa-6dff-491d-8df7-9bfaf5a4e90c" />
+
+
+
+
+
+
+## MENSAJE DE ALERTA (EXITOSO)
+
+
+<img width="1352" height="668" alt="Captura de pantalla 2025-11-06 191451" src="https://github.com/user-attachments/assets/5ac88260-a200-4e5f-9514-2157cc8d9dbe" />
+
+
+
+
+
+
+
+
+
+
+
+
